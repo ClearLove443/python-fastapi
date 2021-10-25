@@ -22,7 +22,9 @@ pip install -r requirements.txt
 # run it
 
 ```bash
+source env/Scripts/activate
 uvicorn main:app --reload
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
 # Interactive Api docs upgrad
